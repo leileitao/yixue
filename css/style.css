@@ -1,0 +1,553 @@
+/**
+ * common css start
+ */
+
+ul li{
+	list-style: none;
+}
+body{
+	font-family: "microsoft yahei";
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+h4 b{
+	font-family: "microsoft yahei";
+	font-weight: 600;
+}
+/**
+ * header start 
+ */
+.header .container .navbar .container .collapse ul{
+	height: 120px;
+	
+}
+.header .container .navbar .container .collapse ul li{
+	/*margin: 20px;*/
+	width: 120px;
+}
+.header .container .navbar .container .collapse ul li a{
+	text-align: center;
+	height: 120px;
+	line-height: 100px;
+	font-size: 18px;
+	color: #000;
+}
+.nav-active{
+	background: #fff000;
+}
+.header .container .navbar .container .collapse ul li a:hover{
+	background: #fff000;
+}
+
+
+
+/**
+ * header end
+ */
+
+/****footer start****/
+.footer{
+	margin-top: 30px;
+	padding-bottom: 20px;
+	background: #000000;
+	/*width: 100%;*/
+}
+.footer p,.footer a{
+	color: #fff;
+}
+.footer input{
+	margin-top: 20px;
+}
+.textarea{
+	margin-top: 20px;
+}
+.footer ul{
+	/*float: left;*/
+	margin: 50px 0 0 80px;
+}
+.footer ul li{
+	margin: 0 20px 0 0;
+	float: left;
+}
+.footer ul li a{
+	color: #fff;
+}
+/****footer end****/
+
+@media screen and (max-width: 1200px) {
+  	.footer .container{
+  		width: 1200px !important;
+  	}
+  	.footer{
+  		width: 1200px;
+  	}
+  	.banner{
+		width: 1200px !important;
+	}
+	.navbar-2{
+		width: 1200px !important;
+	}
+	.bg-img{
+		width: 1200px !important;
+	}
+}
+@media screen and (max-width: 979px) {
+  	.footer .container{
+  		width: 1200px !important;
+  	}
+  	.footer{
+  		width: 1200px;
+  	}
+}
+@media screen and (max-width: 767px) {
+  	.footer .container{
+  		width: 1200px !important;
+  	}
+  	.footer{
+  		width: 1200px;
+  	}
+}
+@media screen and (max-width: 480px) {
+  	.footer .container{
+  		width: 1200px !important;
+  	}
+  	.footer{
+  		width: 1200px;
+  	}
+}
+
+/**
+ * common css end
+ */
+
+
+
+.container{
+	width: 1170px !important; 
+}
+.banner .container{
+	width: 100% !important;
+}
+.banner{
+	margin-top: 120px;
+}
+.banner .container{
+	padding: 0;
+}
+.box {
+	width: 100%;
+	height: auto;
+	line-height: 4;
+	text-align: center;
+	font-size: 5em;
+	color: #fff;
+	text-transform: capitalize;
+	vertical-align: middle;
+}
+
+.b{
+	border: 1px solid blue;
+}
+.r{
+	border:1px solid red
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.extend ul li{
+	float: left;
+	margin: 20px 20px 0 20px;
+}
+.extend ul{
+	margin-left: 70px
+}
+
+.personal{
+	margin-top: 30px;
+	background-color: #f6f6f6;
+}
+.personal .personal-intro h1,.personal .personal-intro p{
+	font-family: "microsoft yahei";
+	text-align: center;
+}
+.personal .personal-psonintro{
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px #dedede;
+}
+
+.yixue-extend .personal-intro h1,.yixue-extend .personal-intro p{
+	font-family: "microsoft yahei";
+	text-align: center;
+}
+.yixue-extend{
+	margin-top: 30px;
+}
+.yixue-extend-img .img-rounded img{
+	border-radius: 8px;
+	text-align: center;
+	margin: 0 4px;
+}
+.yixue-extend-img .img-rounded .caption h3{
+	text-align: center;
+}
+
+.case .personal-intro h1,.case .personal-intro p{
+	font-family: "microsoft yahei";
+	text-align: center;
+}
+
+.case-content-right .img-one{
+	width: 170px;
+	margin: 0px 5px;
+	border-radius: 8px;
+}
+.case-content-right .img-two{
+	width: 355px;
+	margin: 16px 5px;
+	border-radius: 8px;
+}
+.case-content-left-intro p{
+	color: #A4A3A3;
+	font-family: "microsoft yahei";
+}
+
+/**
+ * custom定制页css start
+ */
+
+.navbar-2{
+	margin-top: 120px;
+	height: 50px;
+	background: #000;
+}
+.navbar-2 .container ul{
+	height: 50px;
+	line-height: 50px;
+	margin-left: 140px;
+}
+.navbar-2 .container ul li{
+	float: left;
+	margin-left: 20px;
+}
+.navbar-2 .container ul li a{
+	text-decoration: none;
+	color: #dedede;
+}
+.navbar-2 .container ul li a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.bg-img{
+	height: 200px;
+	background: url(../images/aiaitie_02.png) no-repeat 0 0;
+	width: 100%;
+	background-size: 100%;
+	margin-top: 170px;
+}
+.custom-img-show{
+	margin-top: 200px;
+	/*background: #DEDEDE;*/
+}
+/**
+ * mask css start
+ */
+.qixi {
+	width: 1170px;
+	height: 280px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.relian {
+	width: 240px;
+	height: 239px;
+	overflow: hidden;
+	position: absolute;
+	left: 150px;
+	top: 10px;
+}
+
+.relian .pic {
+	width: 240px;
+	height: 239px;
+	position: relative;
+}
+
+.relian .pic2 {
+	width: 240px;
+	height: 478px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.miyue {
+	width: 240px;
+	height: 239px;
+	overflow: hidden;
+	position: absolute;
+	left: 470px;
+	top: 10px;
+}
+
+.miyue .pic {
+	width: 385px;
+	height: 178px;
+	position: relative;
+}
+
+.miyue .pic2 {
+	width: 240px;
+	height: 478px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.qinzi {
+	width: 240px;
+	height: 239px;
+	overflow: hidden;
+	position: absolute;
+	right: 150px;
+	top: 10px;
+}
+
+.qinzi .pic {
+	width: 306px;
+	height: 178px;
+	position: relative;
+}
+
+.qinzi .pic2 {
+	width: 240px;
+	height: 478px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/**
+ *mask css end 
+ */
+
+.one-extend-img .img-tab img{
+	border-radius: 10px;
+}
+.one-extend-img {
+	margin-top: 20px;
+}
+
+.img-tab {
+	background: #DEDEDE;
+	width: 1170px;
+	height: 280px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.img-tab1 {
+	width: 240px;
+	height: 109px;
+	overflow: hidden;
+	position: absolute;
+	left: 50px;
+	top: 45px;
+}
+
+.img-tab1 .pic {
+	width: 240px;
+	height: 240px;
+	position: relative;
+}
+
+.img-tab1 .pic2 {
+	width: 240px;
+	height: 478px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.img-tab2 {
+	width: 240px;
+	height: 109px;
+	overflow: hidden;
+	position: absolute;
+	left: 337px;
+	top: 45px;
+}
+
+.img-tab2 .pic {
+	width: 385px;
+	height: 178px;
+	position: relative;
+}
+
+.img-tab2 .pic2 {
+	width: 240px;
+	height: 478px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.img-tab3 {
+	width: 240px;
+	height: 109px;
+	overflow: hidden;
+	position: absolute;
+	left: 607px;
+	top: 45px;
+}
+
+.img-tab3 .pic {
+	width: 306px;
+	height: 178px;
+	position: relative;
+}
+
+.img-tab3 .pic2 {
+	width: 240px;
+	height: 478px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.img-tab4 {
+	width: 240px;
+	height: 109px;
+	overflow: hidden;
+	position: absolute;
+	right: 50px;
+	top: 45px;
+}
+
+.img-tab4 .pic {
+	width: 306px;
+	height: 178px;
+	position: relative;
+}
+
+.img-tab4 .pic2 {
+	width: 240px;
+	height: 478px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.xhx{
+	widows: 100px;
+	height: 2px;
+	margin-top: 40px;
+	line-height: 50px;
+	background: #DEDEDE;
+}
+
+.more-img-tab {
+	width: 1170px;
+	height: 480px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.more-img-tab1 {
+	width: 240px;
+	height: 360px;
+	overflow: hidden;
+	position: absolute;
+	left: 150px;
+	top: 10px;
+}
+
+.more-img-tab1 .pic {
+	width: 240px;
+	height: 239px;
+	position: relative;
+}
+
+.more-img-tab1 .pic2 {
+	width: 240px;
+	height: 720px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.more-img-tab2 {
+	width: 240px;
+	height: 360px;
+	overflow: hidden;
+	position: absolute;
+	left: 470px;
+	top: 10px;
+}
+
+.more-img-tab2 .pic {
+	width: 385px;
+	height: 178px;
+	position: relative;
+}
+
+.more-img-tab2 .pic2 {
+	width: 240px;
+	height: 720px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.more-img-tab3 {
+	width: 240px;
+	height: 360px;
+	overflow: hidden;
+	position: absolute;
+	right: 150px;
+	top: 10px;
+}
+
+.more-img-tab3 .pic {
+	width: 306px;
+	height: 178px;
+	position: relative;
+}
+
+.more-img-tab3 .pic2 {
+	width: 240px;
+	height: 720px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/**
+ * custom定制页css end
+ */
+
+
+
+
