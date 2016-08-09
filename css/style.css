@@ -549,5 +549,103 @@ h4 b{
  */
 
 
+/**
+ * networkplan css end
+ */
+.cat-words{
+	margin-top: 180px;
+}
+.cat-words ul{
+	margin-left: 20%;
+	line-height: 30px;
+}
+.cat-words ul li{
+	float: left;
+	border: 1px solid #DEDEDE;
+	border-radius: 20px;
+	display: block;
+	width: 100px;
+	line-height: 25px;
+	margin: 10px;
+}
+.cat-words ul li:hover{
+	/*border-radius: 20px;*/
+	background: #000;
+	display: block;
+	line-height: 25px;
+}
+
+.cat-words ul li a:hover{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+.select-active{
+	border: 1px solid #000;
+	border-radius: 20px;
+}
+.cat-words ul li a{
+	text-align: center;
+	display: block;
+	color: #000;
+	font-weight: 800;
+}
+.list-plan .list-one{
+	height: 200px;
+	width: auto;
+	padding: 20px;
+	background: #F6F6F6;
+	border-radius: 10px;
+	border: 1px solid #F6F6F6;
+	margin-top: 20px;
+}
+.list-plan .list-one:hover{
+	border: 1px solid #3AA7ED;
+}
+.list-common{
+	margin-left: 30px;
+}
+.list-plan .list-one a:hover{
+	text-decoration: none;
+}
+.list-plan .list-one .list-left img{
+	height: 150px;
+	width: 150px;
+	border: 1px solid #DEDEDE;
+	border-radius: 50%;
+}
+.list-plan .list-one .list-mid{
+	height: 150px;
+	width: 60%;
+}
+.list-plan .list-one .list-mid h3{
+	font-weight: 500;
+	color: #000;
+}
+.list-plan .list-one:hover .list-mid h3{
+	color: #0794CE;
+}
+
+.list-plan .list-one .list-mid h4{
+	font-size: 15px;
+	font-weight: 600;
+}
+.list-plan .list-one .list-mid p,.list-plan .list-one .list-right p{
+	color: #A4A4A3;
+}
+.list-plan .list-one .list-mid p span,.list-plan .list-one .list-right p span{
+	color: #F6754B;
+}
+.list-plan .list-one .list-right{
+	height: 150px;
+	width: 150px;
+}
+.list-plan .list-one .list-right p{
+	margin-top: 20px;
+	font-size: 17px;
+}
 
 
+/**
+ * networkplan css end
+ */
