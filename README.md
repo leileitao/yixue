@@ -1,3 +1,2 @@
-# [蚁穴官方主页](http://139.129.9.97/yixue/index.html)
-##2016-08-09 增加了网络营销和网络活动策划两个page
+# [蚁穴测试主页](http://120.76.117.253/github-yixue/yixue/index.html)
 
