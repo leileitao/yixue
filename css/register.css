@@ -1,6 +1,81 @@
+.checkbox {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .checkbox .agree {
+    margin-left: 30px; }
+  .checkbox .checkboxOne {
+    width: 25px;
+    position: relative; }
+  .checkbox .checkboxOne label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: #FC9874;
+    border: 0px solid #ddd;
+    border-radius: 5px; }
+  .checkbox .checkboxOne label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    background: transparent;
+    top: 10px;
+    left: 7px;
+    border: 3px solid #000000;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .checkbox .checkboxOne label:hover::after {
+    opacity: 0.5; }
+  .checkbox .checkboxOne input[type=checkbox]:checked + label:after {
+    opacity: 1; }
+  .checkbox input[type=checkbox] {
+    visibility: hidden; }
+
 .register {
-  margin-top: 140px;
-  height: 1000px;
-  background: #DEDEDE; }
+  border-top: 1px solid #DEDEDE;
+  margin-top: 121px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  height: 700px;
+  background: #F6F6F6; }
+  .register .container {
+    width: 45% !important; }
+  .register .register-content {
+    background: #fff;
+    height: 600px;
+    padding-top: 20px; }
+  .register .content {
+    margin: 0 auto;
+    width: 50%; }
+    .register .content h1 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: 500;
+      font-family: "microsoft yahei"; }
+    .register .content .form {
+      margin: 0 auto;
+      width: 300px; }
+      .register .content .form .rule {
+        color: #FC9874; }
+      .register .content .form button {
+        border: 1px solid #FC9874; }
+      .register .content .form button:hover {
+        background: #FC9874;
+        color: #fff; }
+      .register .content .form .register-login {
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 30px; }
+        .register .content .form .register-login span {
+          color: #FC9874; }
 
 /*# sourceMappingURL=register.css.map */

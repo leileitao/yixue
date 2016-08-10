@@ -98,7 +98,7 @@ h4 b{
     .footer .footer-right .footer-address .address {
       width: 20px;
       background: url(../images/icon.png) no-repeat 0 0;
-      background-position: -360px -60px;
+      background-position: -272px -161px;
       background-size: 500px; }
     .footer .footer-right .footer-right-r {
       margin-left: -50px; }
@@ -126,6 +126,9 @@ h4 b{
 		width: 1200px !important;
 	}
 	.bg-img{
+		width: 1200px !important;
+	}
+	.register{
 		width: 1200px !important;
 	}
 }
