@@ -172,6 +172,9 @@ h4 b{
 .banner{
 	margin-top: 120px;
 }
+.banner ul li{
+	list-style: none;
+}
 .banner .container{
 	padding: 0;
 }
